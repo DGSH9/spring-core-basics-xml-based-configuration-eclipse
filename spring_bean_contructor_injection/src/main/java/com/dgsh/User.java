@@ -1,5 +1,8 @@
 package com.dgsh;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
 	
 	private String userName;
@@ -11,17 +14,10 @@ public class User {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-	
 
 	@Override
 	public String toString() {
-		return "User [userName=" + userName + "]";
+		return "This is User";
 	}
-
-	public User(String userName) {
-		super();
-		this.userName = userName;
-	}
-	
 	
 }

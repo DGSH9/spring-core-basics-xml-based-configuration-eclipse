@@ -8,12 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        
-    	
     	ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-    	User user = (User)context.getBean("user");
-    	System.out.println(user);
-    	
+    	Department department = (Department)context.getBean("department");
+    	department.showDepartment();
     	
     }
 }

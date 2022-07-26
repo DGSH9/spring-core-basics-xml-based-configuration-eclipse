@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>spring_bean_contructor_injection</name>
+	<name>spring_bean_autowired_component</name>
 	<comment></comment>
 	<projects>
 	</projects>
